@@ -46,13 +46,21 @@
     }
 
     /* Add this block to import the custom font */
-   @font-face {
-  font-family: 'ARCADE I';
+  @font-face {
+  font-family: 'Avara_Bold';
+  src: url('/static/fonts/Bold/Avara-Bold_web.eot');
+  src: url('/static/fonts/Bold/Avara-Bold_web.eot?#iefix') format('embedded-opentype'),
+       url('/static/fonts/Bold/Avara-Bold_web.woff') format('woff'),
+       url('/static/fonts/Bold/Avara-Bold_web.woff2') format('woff2'),
+       url('/static/fonts/Bold/Avara-Bold_web.ttf') format('truetype'),
+       url('/static/fonts/Bold/Avara-Bold_web.svg#svgFontName') format('svg');
+  font-weight: normal;
   font-style: normal;
-  font-weight: 400;
-  src: local('ARCADE I'), url('/Fonts/ARCADE_I.ttf') format('truetype');
 }
 
+body {
+  font-family: 'Avara_Bold', sans-serif;
+}
   </style>
 </head>
 <body>
