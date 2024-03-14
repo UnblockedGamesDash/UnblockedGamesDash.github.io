@@ -1,9 +1,10 @@
 @font-face {
-  font-family: 'MyCustomFont';
-  src: url('Fonts/ARCADE_I.TTF') format('TTF'),
-       url('Fonts/ARCADE_I.TTF') format('TTF2');
+  font-family: 'ARCADE_I';
+  src: url('Fonts/ARCADE_I.woff2') format('woff2'),
+       url('Fonts/ARCADE_I.woff') format('woff');
   font-weight: normal;
   font-style: normal;
+}
 }
 
 @font-face {
