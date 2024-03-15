@@ -1,6 +1,5 @@
-@font-face {
-  font-family: 'ARCADE_I';
-  src: url('Fonts/ARCADE_I.ttf') format('truetype');
+@font-face {font-family: 'MyCustomFont';
+  src: url('https://raw.githubusercontent.com/UnblockedGamesDash/UnblockedGamesDash.github.io/main/Fonts/ARCADE_I.TTF') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
