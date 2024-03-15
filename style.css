@@ -9,7 +9,7 @@
 body {
       margin: 0;
       padding: 0;
-      font-family: 'arcade1', sans-serif;
+      font-family: 'arcade1', ARCADE_I.TTF;
       background-image: url("backround.png");
       background-size: cover;
       background-repeat: no-repeat;
