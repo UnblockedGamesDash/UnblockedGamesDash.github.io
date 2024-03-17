@@ -35,7 +35,7 @@ nav a {
 body {
       margin: 0;
       padding: 0;
-      font-family: 'arcade3', ARCADE_D.ttf;
+      font-family: 'arcade3', ARCADE_R.ttf;
       font-family: 'arcade1', ARCADE_I.TTF;
       background-image: url("backround.png");
       background-size: cover;
