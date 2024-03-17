@@ -8,10 +8,14 @@
 
 @font-face {
   font-family: 'arcade3';
-  src: url("./Fonts/ARCADE_D") format('truetype');
+  src: url("./Fonts/ARCADE_D.ttf") format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
+}
+
+body {
+  font-family: 'arcade3', sans-serif;
 }
 
 .container-outer {
