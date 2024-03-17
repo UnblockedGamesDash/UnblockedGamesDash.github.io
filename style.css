@@ -14,8 +14,8 @@
   font-display: swap;
 }
 
-body {
-  font-family: 'arcade3', ARCADE_D.ttf;
+nav a {
+  font-family: 'arcade3', sans-serif;
 }
 
 .container-outer {
