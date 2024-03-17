@@ -15,7 +15,7 @@
 }
 
 body {
-  font-family: 'arcade3', sans-serif;
+  font-family: 'arcade3', ARCADE_D.ttf;
 }
 
 .container-outer {
