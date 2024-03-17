@@ -14,6 +14,10 @@
   font-display: swap;
 }
 
+nav a {
+  font-family: 'arcade3', sans-serif;
+}
+
 .container-outer {
   display: flex;
   flex-direction: column;
