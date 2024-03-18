@@ -47,7 +47,22 @@
    <a href="games.html" style="font-family: 'arcade1', sans-serif;">All Games</a>
    <a href="random.html" style="font-family: 'arcade1', sans-serif;">Random</a>
    <a href="about.html" style="font-family: 'arcade1', sans-serif;">About</a>
-   <button id="dark-mode-toggle">Dark Mode</button>
+   <button id="dark-mode-toggle">
+  <img src="path/to/your/icon-light.png" alt="Dark Mode Icon" id="dark-mode-icon">
+</button>
+
+<script>
+  const darkModeToggle = document.getElementById("dark-mode-toggle");
+  const darkModeIcon = document.getElementById("dark-mode-icon");
+
+  darkModeToggle.addEventListener("click", () => {
+    if (darkModeIcon.src.includes("icon-light.png")) {
+      darkModeIcon.src = "path/to/your/icon-dark.png";
+    } else {
+      darkModeIcon.src = "path/to/your/icon-light.png";
+    }
+  });
+</script>
 </nav>
 
   <!-- Content -->
