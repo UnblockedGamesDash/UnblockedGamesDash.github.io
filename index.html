@@ -48,7 +48,7 @@
    <a href="random.html" style="font-family: 'arcade1', sans-serif;">Random</a>
    <a href="about.html" style="font-family: 'arcade1', sans-serif;">About</a>
    <button id="dark-mode-toggle">
-  <img src="path/to/your/icon-light.png" alt="Dark Mode Icon" id="dark-mode-icon">
+  <img src="./Icons/lightmode.png" alt="Dark Mode Icon" id="dark-mode-icon">
 </button>
 
 <script>
@@ -56,10 +56,10 @@
   const darkModeIcon = document.getElementById("dark-mode-icon");
 
   darkModeToggle.addEventListener("click", () => {
-    if (darkModeIcon.src.includes("icon-light.png")) {
-      darkModeIcon.src = "path/to/your/icon-dark.png";
+    if (darkModeIcon.src.includes("lightmode.png")) {
+      darkModeIcon.src = "./Icons/darkmode.png";
     } else {
-      darkModeIcon.src = "path/to/your/icon-light.png";
+      darkModeIcon.src = "./Icons/darkmode.png";
     }
   });
 </script>
