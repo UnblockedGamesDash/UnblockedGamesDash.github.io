@@ -44,6 +44,29 @@ body {
       background-attachment: fixed; /* This ensures the background image stays fixed while scrolling */
       color: white; /* Add this line to change the font color to white */
     }
+.game-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 10px;
+}
+
+.game-item {
+  text-align: center;
+  padding: 10px;
+  background-color: #f2f2f2;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.game-item img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.game-item h3 {
+  margin: 0;
+}
   </style>
 </head>
 <body>
