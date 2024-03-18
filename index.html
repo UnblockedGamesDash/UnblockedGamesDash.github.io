@@ -47,30 +47,16 @@
    <a href="games.html" style="font-family: 'arcade1', sans-serif;">All Games</a>
    <a href="random.html" style="font-family: 'arcade1', sans-serif;">Random</a>
    <a href="about.html" style="font-family: 'arcade1', sans-serif;">About</a>
-   <button id="dark-mode-toggle">
-  <img src="./Icons/lightmode.png" alt="Dark Mode Icon" id="dark-mode-icon">
-</button>
-
-<button id="themes-btn">Themes</button>
-  
-<div id="themes-menu" class="hidden">
-  <a href="#" class="theme-item">Theme 1</a>
-  <a href="#" class="theme-item">Theme 2</a>
-  <a href="#" class="theme-item">Theme 3</a>
-</div>
-
-<script>
-  const darkModeToggle = document.getElementById("dark-mode-toggle");
-  const darkModeIcon = document.getElementById("dark-mode-icon");
-
-  darkModeToggle.addEventListener("click", () => {
-    if (darkModeIcon.src.includes("lightmode.png")) {
-      darkModeIcon.src = "./Icons/darkmode.png";
-    } else {
-      darkModeIcon.src = "./Icons/darkmode.png";
-    }
-  });
-</script>
+  <ul class="dropdown">
+    <li>
+      <a href="#">Themes</a>
+      <ul class="submenu">
+        <li><a href="#">Dark Mode</a></li>
+        <li><a href="#">Light Mode</a></li>
+        <li><a href="#">Sex Mode</a></li>
+      </ul>
+    </li>
+  </ul>
 </nav>
 
   <!-- Content -->
