@@ -28,6 +28,34 @@ nav a {
   padding: 0;
 }
 
+.game-item {
+  position: relative;
+  width: 100%;
+}
+
+.game-item img {
+  width: 100%;
+  height: auto;
+}
+
+.play-button-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: 'arcade3', sans-serif;
+}
+
+.play-button-overlay:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
 .container {
   text-align: center;
 }
