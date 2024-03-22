@@ -1,1 +1,110 @@
+@font-face {
+  font-family: 'arcade1';
+  src: url("./Fonts/ARCADE_I.TTF") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'arcade3';
+  src: url("./Fonts/ARCADE_R.TTF") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+nav a {
+  font-family: 'arcade3', sans-serif;
+}
+
+.container-outer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.game-item {
+  position: relative;
+  width: 100%;
+}
+
+.game-item img {
+  width: 100%;
+  height: auto;
+}
+
+.play-button-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #f2f2f2; /* Light gray for text */
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: 'arcade3', sans-serif;
+}
+
+.play-button-overlay:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.container {
+  text-align: center;
+}
+
+.bottom-bar {
+  background-color: #2d2d2d; /* Dark gray for background */
+  border-top: 25px solid #2d2d2d; /* Dark gray for border */
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 1px;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'arcade3', ARCADE_R.ttf;
+  font-family: 'arcade1', ARCADE_I.TTF;
+  background-image: url("backround.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #2d2d2d; /* Dark gray */
+  background-attachment: fixed; /* This ensures the background image stays fixed while scrolling */
+  color: #f2f2f2; /* Light gray for text */
+}
+
+.game-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 10px;
+}
+
+.game-item {
+  text-align: center;
+  padding: 10px;
+  background-color: #424242; /* Dark gray */
+  border: 1px solid #666666; /* Dark gray for border */
+  border-radius: 5px;
+}
+
+.game-item img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.game-item h3 {
+  margin: 0;
+}
 
