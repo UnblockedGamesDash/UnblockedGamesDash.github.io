@@ -62,7 +62,7 @@ nav a {
 
 .bottom-bar {
   background-color: #f0f0f0;
-  border-top: 50px solid #ddd;
+  border-top: 5px solid #ddd;
   position: fixed;
   left: 0;
   right: 0;
