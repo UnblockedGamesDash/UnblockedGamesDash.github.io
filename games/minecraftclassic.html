@@ -54,24 +54,6 @@
   <div class="container">
    <h1 style="font-family: 'arcade3', sans-serif; color: #6b6868;">Minecraft Classic</h1>
     <!-- Your game content can be added here -->
-    <script>
-          function toggleFullscreen() {
-            var iframe = document.getElementById("game-iframe");
-    
-            if (!document.fullscreenElement) {
-              iframe.requestFullscreen().catch((err) => {
-                console.log(
-                  `Error attempting to enable full-screen mode: ${err.message} (${err.name})`
-                );
-              });
-            } else {
-              if (document.exitFullscreen) {
-                document.exitFullscreen();
-              }
-            }
-          }
-        </script>
-
 <div
       style="
         margin-top: 30px;
@@ -114,22 +96,30 @@
     style="color: #dd2020"
     ><span class="logo">Mojang and Fibble</span></a
   >
-<button onclick="toggleFullscreen()" style="outline: none;">
-  <svg
-    xmlns="../fullscreen.svg"
-    width="32"
-    height="32"
-    viewBox="0 0 24 24"
-    fill="#dd2020"
-    stroke="#ffffff"
-    stroke-width="2"
-    stroke-linecap="round"
-    stroke-linejoin="round"
-  >
-    <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
-    <path d="M10 16l4-4m0 0l4 4m-4-4l4-4" />
-  </svg>
+
+  <!-- gap for button -->
+
+<button style="outline: none; background-image: url('../Icons/fullscreen.svg'); background-repeat: no-repeat; background-size: cover; padding: 10px;" onclick="toggleFullscreen()">
+    Toggle Fullscreen
 </button>
+
+<script>
+  function toggleFullscreen() {
+    var iframe = document.getElementById("game-iframe");
+
+    if (!document.fullscreenElement) {
+      iframe.requestFullscreen().catch((err) => {
+        console.log(
+          `Error attempting to enable full-screen mode: ${err.message} (${err.name})`
+        );
+      });
+    } else {
+      if (document.exitFullscreen) {
+        document.exitFullscreen();
+      }
+    }
+  }
+</script>
 </div>
           
 </div>
