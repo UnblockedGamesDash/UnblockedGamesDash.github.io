@@ -60,23 +60,16 @@ nav a {
   text-align: center;
 }
 
-<div class="bottom-bar">
-  <div class="left-column">
-    <a href="./index.html"
-      ><span class="logo">Mojang and Fibble</span></a
-    >
-  </div>
-  <div class="right-column">
-    <button onclick="toggleFullscreen()">
-      <img
-        src="../Icons/fullscreen.svg"
-        alt="Fullscreen"
-        width="32"
-        height="32"
-      />
-    </button>
-  </div>
-</div>
+.bottom-bar {
+  background-color: #f0f0f0;
+  border-top: 1px solid #ddd;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 10px;
+  box-sizing: border-box;
+}
 
 body {
       margin: 0;
