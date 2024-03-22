@@ -61,8 +61,8 @@ nav a {
 }
 
 .bottom-bar {
-  background-color: #f0f0f0;
-  border-top: 5px solid #ddd;
+  background-color: #dd2020
+  border-top: 2px solid #dd2020;
   position: fixed;
   left: 0;
   right: 0;
